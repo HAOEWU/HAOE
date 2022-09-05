@@ -9,7 +9,7 @@ const wrapper = document.querySelector(".wrapper"),
     progressArea = wrapper.querySelector(".progress-area"),
     progressBar = progressArea.querySelector(".progress-bar");
 
-let musicIndex = Math.floor((Math.random() * allMusic.lenght) + 1);
+let musicIndex = Math.floor((Math.random() * allMusic.length) + 1);
 isMusicPaused = true;
 
 window.addEventListener("load", () => {
